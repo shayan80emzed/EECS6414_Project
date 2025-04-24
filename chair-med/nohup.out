@@ -1,0 +1,6 @@
+ERROR:root:Cannot process sentence 680 in 742
+Traceback (most recent call last):
+  File "/fs01/home/emzed/eecs6414/chair-med/negbio/pipeline/ptb2ud.py", line 120, in convert_doc
+    has_lemmas=self._backend == 'jpype')
+TypeError: 'NoneType' object is not iterable
+Chair I: 0.7169303264893975, Chair S: 0.901, Micro F1: 0.32672882672882675, Macro F1: 0.23966383372000635
